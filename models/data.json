@@ -1,0 +1,113 @@
+{
+  "regionals": [
+    {
+      "description": "AC",
+      "average": 26.3566
+    },
+    { 
+      "description": "AL",
+      "average": 21.5035
+    },
+    { 
+      "description": "AM",
+      "average": 28.4431
+    },
+    { 
+      "description": "AP",
+      "average": 50.0000
+    },
+    { 
+      "description": "BA",
+      "average": 25.8294
+    },
+    { 
+      "description": "CE",
+      "average": 23.2911
+    },
+    { 
+      "description": "DF",
+      "average": 38.2813
+    },
+    { 
+      "description": "ES",
+      "average": 15.3846
+    },
+    { 
+      "description": "GO",
+      "average": 31.8966
+    },
+    { 
+      "description": "MA",
+      "average": 36.0119
+    },
+    { 
+      "description": "MG",
+      "average": 30.1887
+    },
+    { 
+      "description": "MS",
+      "average": 37.0690
+    },
+    { 
+      "description": "MT",
+      "average": 32.7759
+    },
+    { 
+      "description": "PA",
+      "average": 25.5302
+    },
+    { 
+      "description": "PB",
+      "average": 23.0392
+    },
+    { 
+      "description": "PE",
+      "average": 23.1411
+    },
+    { 
+      "description": "PI",
+      "average": 28.6700
+    },
+    { 
+      "description": "PR",
+      "average": 25.7344
+    },
+    { 
+      "description": "RJ",
+      "average": 26.9625
+    },
+    { 
+      "description": "RN",
+      "average": 23.5968
+    },
+    { 
+      "description": "RO",
+      "average": 32.3353
+    },
+    { 
+      "description": "RR",
+      "average": 35.8025
+    },
+    { 
+      "description": "RS",
+      "average": 30.6773
+    },
+    { 
+      "description": "SC",
+      "average": 23.2506
+    },
+    { 
+      "description": "SE",
+      "average": 23.6325
+    },
+    {
+      "description": "SP",
+      "average": 23.9030
+    },
+    {
+      "description": "TO",
+      "average": 43.0493
+    }
+  ],
+  "national": 26.5581
+}

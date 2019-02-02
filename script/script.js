@@ -1,0 +1,1 @@
+window.Data = new ReportController();
