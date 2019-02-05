@@ -4,10 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
     <title>Relatório SENAI</title>
 </head>
 <body>
     
+   <header>
+        <div id="header">
+            <div class="container">
+                <img src="img/logo.png" alt="logoSenai">
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container" id="section">
+            <div id="title">
+                <h1>Relatório de ex-alunos do SENAI que continuam estudando no Brasil</h1>
+                <hr>
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente, magnam libero voluptatem animi ratione vitae quaerat qui enim neque laudantium itaque dolor voluptate quos recusandae doloribus voluptates nesciunt sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facilis fugit. Voluptatum nam obcaecati saepe eaque, officiis at molestiae quia exercitationem, accusantium dicta porro? Id explicabo porro soluta labore temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ducimus maxime officia fugit esse aliquid. Accusamus natus saepe, soluta dolores modi nisi aperiam officiis? Fugit, voluptates. A neque maiores ullam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sapiente, magnam libero voluptatem animi ratione vitae quaerat qui enim neque laudantium itaque dolor voluptate quos recusandae doloribus voluptates nesciunt sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facilis fugit. Voluptatum nam obcaecati saepe eaque, officiis at molestiae quia exercitationem, accusantium dicta porro? Id explicabo porro soluta labore temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ducimus maxime officia fugit esse aliquid. Accusamus natus saepe, soluta dolores modi nisi aperiam officiis? Fugit, voluptates. A neque maiores ullam!</p>
+
+            <p class="legend-button">Clique no botão ao lado para visualizar o gráfico com os percentuais das médias dos ex-alunos SENAI que continuam estudando no Brasil</p>
+
+            <button class="btn btn-outline-info" id="click">Clique Aqui!</button>
+            <br>
+            <br>
+        
+            <div id="graphic">
+                <h2>Gráfico com percentuais(%) das médias Regionais e Nacional</h2>
+
+                <div class="row">
+                    <div class="cols-th col-md-4">
+                        <p>Estado</p>
+                    </div>
+                    <div class="cols-th col-md-2">
+                        <p class="porcent-line">25%</p>
+                    </div>
+                    <div class="cols-th col-md-2">
+                        <p class="porcent-line">50%</p>
+                    </div>
+                    <div class="cols-th col-md-2">
+                        <p class="porcent-line">75%</p>
+                    </div>
+                    <div class="cols-th col-md-2">
+                        <p class="porcent-line">100%</p>
+                        <p>Média(%)</p>
+                    </div>
+                </div>
+                <!-- <div class="row">                    
+                    <div class="cols-td col-md-4">
+                        <p></p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bars-graph"></div>
+                        <div class="row">
+                            <div class="cols-td-bars col-md-4"></div>
+                            <div class="cols-td-bars col-md-4"></div>
+                            <div class="cols-td-bars col-md-4"></div>
+                        </div>
+                    </div>
+                    <div class="cols-td col-md-2">
+                        <p></p>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer">
+            <div class="container">
+               <div class="left">
+                    <img src="img/logo_branca.png" alt="logoSenaiBranca">
+                    <h5>Serviço Nacional de Aprendizagem Industrial</h5>
+                </div>
+                <div class="right">
+                    <h6>SENAI © 2019. Todos os Direitos Reservados</h6>
+                    <small>Desenvolvido por: Anderson Sales</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- JS -->
     <script src="models/models.js"></script>
     <script src="controller/Controller.js"></script>
     <script src="script/script.js"></script>

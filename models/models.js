@@ -36,8 +36,7 @@ class Data {
             if (readyState == 4 && status == 200) {
                 //Conexão realizada com sucesso
                 
-                this.jsonData = xhr.response;
-                console.log(this.jsonData);
+                this.jsonData = JSON.parse(xhr.response);
             } else {
                 //Ocorreu algum erro!    
 
