@@ -39,10 +39,10 @@ Faça download clicando [aqui](https://github.com/SENAI-NTM/teste-backend/blob/m
 4. Você tem uma semana (7 dias) para a finalização do teste, a partir da data de envio do e-mail.
 5. Se não conseguir finalizar os testes, não se preocupe, envie a sua solução no estágio de desenvolvimento que estiver.
 
-##Descrição
+## Descrição
 Relatório de Exibição da taxa(média) de ex-alunos do SENAI que continuam estudando por estado e também a taxa nacional.
 
-##Instruções de Uso!
+## Instruções de Uso!
 1. Abra o arquivo Index.html no seu Navegador Web;
    Opcional: Abrir em servidor apache ou qualquer outro que suporte a extensão .html
 2. O usuário verá uma básica representação do site oficial do SENAI
