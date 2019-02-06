@@ -4,6 +4,8 @@
     bottom: 0;
 }
 
+                                                          /* Header */
+
 #header {
     background-color: #01559B;
     width: 100%;
@@ -14,6 +16,8 @@
     width: 30%;
     margin-top: -60px;
 }
+
+                                                           /* Section */
 
 #title h1 {
     margin-top: 40px;
@@ -34,9 +38,10 @@
 }
 
 #section .legend-button {
-    width: 44%;
-    margin-top: 4em;
+    width: 37%;
+    margin-top: 2.4em;
     display: inline-block;
+    font-size: 19px;
 }
 
 #section button {
@@ -47,6 +52,9 @@
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+                                                            /* Graph */
+
 
 #graphic {
     display: none;
@@ -109,35 +117,49 @@
     left: 0;
     bottom: 15%;
     z-index: 1;
-    transition: 2s;
     width: 1%;
-    -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
 }
+
+#graphic .bars-graph:hover {
+    background-color: #0e5c69f2;
+}
+
 
 #graphic .line:last-child {
-    margin-bottom: 5em;
-} 
-
-/* #graphic .table .uf, #graphic .table .average {
-    width: 20%;
-    border: none;
+    margin-bottom: 4em;
 }
 
-#graphic .table th, #graphic .table .uf {
-    border: none;
-    border-right: 1px solid #000;
+#graphic .national-average {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: -1.2%;
+    margin-right: -1.2%;
 }
 
-#graphic tbody tr td {
-    border-right: 1px solid #000;
+#graphic .national-average .av-total-title,#graphic .national-average .av-total-porc {
+    height: 3em;
+    display: inline-block;
 }
 
-#graphic tbody tr td:last-child {
-    border-right: none;
-} */
+#graphic .national-average .av-total-title:hover, #graphic .national-average .av-total-porc:hover {
+    background-color: #f1f2f6;
+}
+
+#graphic .national-average .av-total-title p,#graphic .national-average .av-total-porc p {
+    text-align: center;
+    line-height: 1.8em;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#graphic .national-average .av-total-porc {
+    border-left: 3px solid #000;
+}
+
+
+
+                                                         /* Footer */
 
 #footer {
     border-top: 3px solid red;
@@ -172,4 +194,89 @@
 #footer .right small {
     color: #6c757dbd;
     font-size: 70%;
+}
+
+
+
+
+
+
+/* Outros */
+
+.btn-back-top {
+    width: 5%;
+    height: 4em;
+    border-radius: 60%;
+    position: fixed;
+    right: 1%;
+    bottom: 7%;
+    outline: none;
+    display: none;
+}
+
+.btn-back-top .fas {
+    color: #0e5c69;
+    font-size: 50px;
+}
+
+.btn-back-top:hover i {
+    color: #fff;
+}
+
+.tooltip-body {
+    width: 5em;
+    height: 50px;
+    background-color: #000000cf;
+    position: fixed;
+    right: 0.5em;
+    bottom: 20%;
+    border-radius: 10px;
+    display: none;
+}
+
+.tooltip-body p {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 145%;
+    padding-top: 7%;
+}
+
+footer .right .btn-back-top-footer {
+    width: 23%;
+    height: 4em;
+    border-radius: 60%;
+    outline: none;
+    display: none;
+    position: relative;
+    left: 110%;
+    margin-top: -21%;
+}
+
+footer .right .btn-back-top-footer .fas {
+    font-size: 50px;
+    color: #fff;
+}
+
+footer .right .btn-back-top-footer:hover i {
+    color: #071f38;
+}
+
+footer .right .tooltip-footer {
+    width: 5em;
+    height: 50px;
+    background-color: #000000cf;
+    position: fixed;
+    right: 0.5em;
+    bottom: 15%;
+    border-radius: 10px;
+    display: none;
+}
+
+footer .right .tooltip-footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 145%;
+    padding-top: 7%;
 }
